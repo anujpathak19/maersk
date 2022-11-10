@@ -1,0 +1,343 @@
+city,No_Of_Employee,Sequence
+New York,1400,1
+Philadelphia,800,2
+Chicago,700,3
+Miami,600,4
+Baltimore,500,5
+Gardena,500,6
+Milwaukee,500,7
+Orlando,500,8
+Phoenix,500,9
+San Francisco,500,10
+Abilene,400,11
+Anchorage,400,12
+Atlanta,400,13
+Brooklyn,400,14
+Denver,400,15
+Indianapolis,400,16
+Los Angeles,400,17
+Providence,400,18
+San Jose,400,19
+Austin,300,20
+Boise,300,21
+Cincinnati,300,22
+Conroe,300,23
+Dallas,300,24
+Erie,300,25
+Hayward,300,26
+Jersey City,300,27
+Lafayette,300,28
+Madison,300,29
+Memphis,300,30
+Nashville,300,31
+New Orleans,300,32
+Newark,300,33
+Worcester,300,34
+Albany,200,35
+Atlantic City,200,36
+Bangor,200,37
+Beverly Hills,200,38
+Boston,200,39
+Bridgeport,200,40
+Bridgewater,200,41
+Burlington,200,42
+Burnsville,200,43
+Cherry Hill,200,44
+Cleveland,200,45
+Colorado Springs,200,46
+Columbia,200,47
+Concord,200,48
+El Cajon,200,49
+Englewood,200,50
+Escondido,200,51
+Fairbanks,200,52
+Garden City,200,53
+Greensboro,200,54
+Honolulu,200,55
+Irving,200,56
+Jacksonville,200,57
+Kearny,200,58
+La Mesa,200,59
+Mc Lean,200,60
+Mesquite,200,61
+Monroe Township,200,62
+New Haven,200,63
+Portland,200,64
+Richland,200,65
+Richmond,200,66
+Riverton,200,67
+Roseville,200,68
+Round Rock,200,69
+Saint Louis,200,70
+San Antonio,200,71
+San Diego,200,72
+San Leandro,200,73
+Scottsdale,200,74
+Seattle,200,75
+Tampa,200,76
+Thousand Oaks,200,77
+Toledo,200,78
+Tullahoma,200,79
+Waco,200,80
+Aberdeen,100,81
+Absecon,100,82
+Akron,100,83
+Alliance,100,84
+Amarillo,100,85
+Anaheim,100,86
+Ann Arbor,100,87
+Annandale,100,88
+Arlington,100,89
+Arlington Heights,100,90
+Ashland,100,91
+Aston,100,92
+Astoria,100,93
+Barberton,100,94
+Beachwood,100,95
+Beaverton,100,96
+Bellflower,100,97
+Beloit,100,98
+Berkeley,100,99
+Biloxi,100,100
+Bladensburg,100,101
+Bloomfield,100,102
+Bloomington,100,103
+Bohemia,100,104
+Bothell,100,105
+Boulder,100,106
+Bowling Green,100,107
+Brandon,100,108
+Brighton,100,109
+Bronx,100,110
+Brook Park,100,111
+Broussard,100,112
+Bucyrus,100,113
+Buffalo,100,114
+Burlingame,100,115
+Butte,100,116
+Camarillo,100,117
+Cambridge,100,118
+Canton,100,119
+Carson City,100,120
+Cathedral City,100,121
+Cedar Grove,100,122
+Chagrin Falls,100,123
+Chapel Hill,100,124
+Cheyenne,100,125
+Clarks Summit,100,126
+Clifton,100,127
+Clinton,100,128
+Clovis,100,129
+Coatesville,100,130
+Cocoa,100,131
+College Station,100,132
+Columbus,100,133
+Coram,100,134
+Costa Mesa,100,135
+Crestview,100,136
+Crystal River,100,137
+Daytona Beach,100,138
+Dearborn,100,139
+Deer Park,100,140
+Denville,100,141
+Des Moines,100,142
+Douglasville,100,143
+Dunellen,100,144
+East Lansing,100,145
+Easton,100,146
+El Monte,100,147
+El Paso,100,148
+Elk Grove Village,100,149
+Elkhart,100,150
+Eugene,100,151
+Euless,100,152
+Evanston,100,153
+Fairfax,100,154
+Fairfield,100,155
+Fargo,100,156
+Fayetteville,100,157
+Findlay,100,158
+Flemington,100,159
+Fort Wayne,100,160
+Fort Worth,100,161
+Fortville,100,162
+Freehold,100,163
+Glen Burnie,100,164
+Grand Rapids,100,165
+Green Bay,100,166
+Hackensack,100,167
+Hamilton,100,168
+Hampstead,100,169
+Hanover,100,170
+Harrisburg,100,171
+Harrison,100,172
+Hatfield,100,173
+Hays,100,174
+Hazleton,100,175
+Hialeah,100,176
+Hicksville,100,177
+High Point,100,178
+Highland Park,100,179
+Hilo,100,180
+Homestead,100,181
+Homosassa,100,182
+Hopkins,100,183
+Houma,100,184
+Huntingdon Valley,100,185
+Huntington Beach,100,186
+Hyattsville,100,187
+Jackson,100,188
+Jenkintown,100,189
+Johnston,100,190
+Katonah,100,191
+Kennedale,100,192
+Kent,100,193
+Kerrville,100,194
+King of Prussia,100,195
+Kulpsville,100,196
+Lake Worth,100,197
+Lancaster,100,198
+Lansing,100,199
+Laredo,100,200
+Las Cruces,100,201
+Little Falls,100,202
+Little Rock,100,203
+Littleton,100,204
+Livingston,100,205
+London,100,206
+Long Island City,100,207
+Longwood,100,208
+Lynbrook,100,209
+Lyndhurst,100,210
+Margate City,100,211
+Massapequa,100,212
+Mc Minnville,100,213
+Meridian,100,214
+Mesa,100,215
+Metairie,100,216
+Middle Island,100,217
+Middleboro,100,218
+Middlesex,100,219
+Milan,100,220
+Minneapolis,100,221
+Moscow,100,222
+Moss,100,223
+Mount Vernon,100,224
+Muskegon,100,225
+New Bedford,100,226
+Newport News,100,227
+Niles,100,228
+North Attleboro,100,229
+North Haven,100,230
+Northfield,100,231
+Northridge,100,232
+Norwalk,100,233
+Novato,100,234
+Nutley,100,235
+Oak Hill,100,236
+Oakland,100,237
+Oakley,100,238
+Old Forge,100,239
+Omaha,100,240
+Ontario,100,241
+Opa Locka,100,242
+Orange,100,243
+Oroville,100,244
+Overland Park,100,245
+Owings Mills,100,246
+Pacifica,100,247
+Palatine,100,248
+Paramus,100,249
+Parkville,100,250
+Pasadena,100,251
+Passaic,100,252
+Paterson,100,253
+Pearl,100,254
+Pearl City,100,255
+Pelham,100,256
+Peoria,100,257
+Perrysburg,100,258
+Pittstown,100,259
+Plainfield,100,260
+Plaistow,100,261
+Plano,100,262
+Pomona,100,263
+Port Jervis,100,264
+Preston,100,265
+Prineville,100,266
+Raleigh,100,267
+Ramsey,100,268
+Randolph,100,269
+Reno,100,270
+Richboro,100,271
+Ridgefield Park,100,272
+Riverside,100,273
+Rochester,100,274
+Rock Springs,100,275
+Rockaway,100,276
+Rockford,100,277
+Rohnert Park,100,278
+Rolling Meadows,100,279
+Ronkonkoma,100,280
+Sacramento,100,281
+Saint Joseph,100,282
+Saint Paul,100,283
+Salem,100,284
+Salisbury,100,285
+Salt Lake City,100,286
+San Bernardino,100,287
+San Carlos,100,288
+San Gabriel,100,289
+San Mateo,100,290
+San Ramon,100,291
+Santa Ana,100,292
+Santa Clara,100,293
+Santa Rosa,100,294
+Saratoga,100,295
+Satellite Beach,100,296
+Scranton,100,297
+Shakopee,100,298
+Shawnee,100,299
+Sioux Falls,100,300
+Smithfield,100,301
+Somerset,100,302
+Somerville,100,303
+South Bend,100,304
+South San Francisco,100,305
+Southampton,100,306
+Southfield,100,307
+Spartanburg,100,308
+Staten Island,100,309
+Sterling Heights,100,310
+Stevens Point,100,311
+Stockton,100,312
+Strongsville,100,313
+Syosset,100,314
+Syracuse,100,315
+Tacoma,100,316
+Taylor,100,317
+Thousand Palms,100,318
+Toms River,100,319
+Trenton,100,320
+Trion,100,321
+Troy,100,322
+Tulsa,100,323
+Union City,100,324
+Utica,100,325
+Valley Park,100,326
+Van Nuys,100,327
+Vashon,100,328
+Vestal,100,329
+Warren,100,330
+Washington,100,331
+Waterford,100,332
+Wayne,100,333
+Wellsville,100,334
+Westborough,100,335
+Westbury,100,336
+Wheeling,100,337
+Whippany,100,338
+Wichita Falls,100,339
+Wilmington,100,340
+Yonkers,100,341
+York,100,342

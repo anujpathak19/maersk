@@ -1,0 +1,343 @@
+city,No_Of_Days,No_Of_Days_CompanyWide
+Phoenix,5,60
+Conroe,3,113
+Kent,1,351
+Randolph,1,427
+Riverside,1,431
+Sioux Falls,1,458
+Brooklyn,4,81
+Madison,3,131
+College Station,1,290
+Crystal River,1,295
+Fort Wayne,1,318
+Rochester,1,432
+Cambridge,1,276
+Tulsa,1,481
+Burnsville,2,164
+Wilmington,1,498
+Concord,2,174
+Stevens Point,1,469
+Clinton,1,286
+King of Prussia,1,353
+Syosset,1,472
+Canton,1,277
+Beachwood,1,253
+Bucyrus,1,271
+Fort Worth,1,319
+Mc Minnville,1,371
+Pearl City,1,413
+Wayne,1,491
+Santa Ana,1,450
+Little Rock,1,361
+Portland,2,206
+Omaha,1,398
+Wheeling,1,495
+Fairfield,1,313
+Cherry Hill,2,166
+Brook Park,1,269
+Nutley,1,393
+Taylor,1,475
+Atlantic City,2,150
+Honolulu,2,188
+Erie,3,119
+Pomona,1,421
+Coram,1,292
+Littleton,1,362
+Bridgeport,2,158
+Atlanta,4,77
+Norwalk,1,391
+Shakopee,1,456
+Staten Island,1,467
+Richland,2,208
+Nashville,3,137
+Annandale,1,246
+Minneapolis,1,379
+Hicksville,1,335
+Utica,1,483
+San Carlos,1,446
+Whippany,1,496
+East Lansing,1,303
+Hialeah,1,334
+Middle Island,1,375
+Denver,4,85
+Absecon,1,240
+North Haven,1,388
+Toms River,1,477
+Saint Paul,1,441
+Mesquite,2,200
+Hazleton,1,333
+London,1,364
+Cathedral City,1,279
+Plainfield,1,418
+Orlando,5,55
+Plano,1,420
+Ramsey,1,426
+Bridgewater,2,160
+Gardena,5,45
+New Orleans,3,140
+Denville,1,299
+Bangor,2,152
+Paterson,1,411
+Columbia,2,172
+Spartanburg,1,466
+Anchorage,4,73
+Oakland,1,395
+Findlay,1,316
+Homosassa,1,340
+Smithfield,1,459
+Troy,1,480
+Northfield,1,389
+Arlington,1,247
+Beloit,1,256
+Dunellen,1,302
+Oak Hill,1,394
+Kearny,2,194
+Preston,1,423
+Salem,1,442
+El Paso,1,306
+Long Island City,1,365
+Southampton,1,464
+Grand Rapids,1,323
+Muskegon,1,383
+Hamilton,1,326
+Lynbrook,1,367
+Monroe Township,2,202
+High Point,1,336
+Kulpsville,1,354
+Stockton,1,470
+Owings Mills,1,404
+Salisbury,1,443
+Metairie,1,374
+Plaistow,1,419
+Salt Lake City,1,444
+Thousand Palms,1,476
+Abilene,4,69
+Huntingdon Valley,1,343
+Union City,1,482
+Austin,3,104
+Massapequa,1,370
+Vashon,1,486
+Miami,6,35
+Hayward,3,122
+Clovis,1,287
+Port Jervis,1,422
+Worcester,3,146
+Carson City,1,278
+Dearborn,1,297
+Evanston,1,311
+Prineville,1,424
+Washington,1,489
+San Jose,4,101
+Chagrin Falls,1,281
+Highland Park,1,337
+Santa Clara,1,451
+Westbury,1,494
+Providence,4,97
+Crestview,1,294
+Memphis,3,134
+Boulder,1,264
+Hatfield,1,331
+South San Francisco,1,463
+Burlingame,1,273
+Pasadena,1,409
+Perrysburg,1,416
+Anaheim,1,244
+Astoria,1,251
+Philadelphia,8,22
+Tampa,2,230
+Biloxi,1,258
+Van Nuys,1,485
+Riverton,2,212
+Chapel Hill,1,282
+Des Moines,1,300
+Fayetteville,1,315
+Livingston,1,363
+Paramus,1,407
+Alliance,1,242
+Santa Rosa,1,452
+Trenton,1,478
+Glen Burnie,1,322
+Pittstown,1,417
+Rockford,1,435
+Rockaway,1,434
+Bellflower,1,255
+Hilo,1,338
+Satellite Beach,1,454
+La Mesa,2,196
+Bowling Green,1,265
+Margate City,1,369
+Southfield,1,465
+Aberdeen,1,239
+Kerrville,1,352
+Tacoma,1,474
+Greensboro,2,186
+Moscow,1,380
+Richboro,1,429
+Moss,1,381
+Kennedale,1,350
+Wichita Falls,1,497
+Berkeley,1,257
+Garden City,2,184
+Oakley,1,396
+Tullahoma,2,236
+Lafayette,3,128
+Bloomfield,1,260
+Flemington,1,317
+Somerville,1,461
+Roseville,2,214
+Clifton,1,285
+Fairfax,1,312
+Harrisburg,1,329
+Hopkins,1,341
+Lake Worth,1,355
+Rolling Meadows,1,437
+Burlington,2,162
+Shawnee,1,457
+Richmond,2,210
+Columbus,1,291
+Milan,1,378
+Pacifica,1,405
+Pearl,1,412
+Lancaster,1,356
+Fortville,1,320
+Middleboro,1,376
+Opa Locka,1,400
+Thousand Oaks,2,232
+South Bend,1,462
+Mesa,1,373
+Newport News,1,385
+Waterford,1,490
+Baltimore,5,40
+Syracuse,1,473
+Vestal,1,487
+Akron,1,241
+Deer Park,1,298
+Jenkintown,1,347
+Little Falls,1,360
+Oroville,1,402
+York,1,500
+Englewood,2,178
+North Attleboro,1,387
+Ontario,1,399
+Rohnert Park,1,436
+Bronx,1,268
+Parkville,1,408
+Raleigh,1,425
+Passaic,1,410
+El Monte,1,305
+New York,14,14
+New Bedford,1,384
+Ridgefield Park,1,430
+Euless,1,310
+Amarillo,1,243
+El Cajon,2,176
+Niles,1,386
+Sterling Heights,1,468
+Hackensack,1,325
+Hyattsville,1,345
+New Haven,2,204
+Elk Grove Village,1,307
+Daytona Beach,1,296
+Freehold,1,321
+Jersey City,3,125
+Homestead,1,339
+Scranton,1,455
+San Gabriel,1,447
+Boise,3,107
+Scottsdale,2,226
+Hampstead,1,327
+Old Forge,1,397
+Orange,1,401
+Elkhart,1,308
+Beverly Hills,2,154
+Waco,2,238
+Hanover,1,328
+Indianapolis,4,89
+San Antonio,2,220
+Houma,1,342
+Yonkers,1,499
+Green Bay,1,324
+Johnston,1,348
+Peoria,1,415
+Huntington Beach,1,344
+Laredo,1,358
+Novato,1,392
+Jacksonville,2,192
+Saint Louis,2,218
+Boston,2,156
+Bohemia,1,262
+Butte,1,274
+Ashland,1,249
+Bladensburg,1,259
+Coatesville,1,288
+Saratoga,1,453
+Fairbanks,2,182
+Eugene,1,309
+Palatine,1,406
+Wellsville,1,492
+Somerset,1,460
+Beaverton,1,254
+Valley Park,1,484
+Warren,1,488
+Saint Joseph,1,440
+Irving,2,190
+Douglasville,1,301
+Brighton,1,267
+San Mateo,1,448
+Albany,2,148
+Northridge,1,390
+Pelham,1,414
+Cleveland,2,168
+Arlington Heights,1,248
+Rock Springs,1,433
+Mc Lean,2,198
+Aston,1,250
+Bloomington,1,261
+Hays,1,332
+Las Cruces,1,359
+San Diego,2,222
+Westborough,1,493
+Barberton,1,252
+Cedar Grove,1,280
+Katonah,1,349
+Lyndhurst,1,368
+Meridian,1,372
+Easton,1,304
+Sacramento,1,439
+Lansing,1,357
+San Ramon,1,449
+San Francisco,5,65
+Ann Arbor,1,245
+Middlesex,1,377
+Costa Mesa,1,293
+Los Angeles,4,93
+Buffalo,1,272
+Cincinnati,3,110
+Camarillo,1,275
+Bothell,1,263
+Fargo,1,314
+Harrison,1,330
+Mount Vernon,1,382
+Milwaukee,5,50
+Newark,3,143
+Toledo,2,234
+Longwood,1,366
+Overland Park,1,403
+Reno,1,428
+San Leandro,2,224
+Broussard,1,270
+Cheyenne,1,283
+Clarks Summit,1,284
+Dallas,3,116
+Escondido,2,180
+Seattle,2,228
+Jackson,1,346
+Chicago,7,29
+Trion,1,479
+Ronkonkoma,1,438
+Strongsville,1,471
+Colorado Springs,2,170
+Brandon,1,266
+San Bernardino,1,445
+Round Rock,2,216
+Cocoa,1,289
