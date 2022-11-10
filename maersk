@@ -1,0 +1,83 @@
+# Databricks notebook source
+#Importing all the libraries we need in process
+import pandas as pd
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import *
+from pyspark.sql.window import Window
+
+
+# COMMAND ----------
+
+#read data from provided link
+sampleEmployee_pandas = pd.read_csv('https://www.briandunning.com/sample-data/us-500.zip')
+
+# COMMAND ----------
+
+#Setting up a spark instance
+spark = SparkSession.builder \
+    .master("local[1]") \
+    .appName("maerskcasestudy_anuj") \
+    .getOrCreate()
+#Create PySpark DataFrame from Pandas
+#created sampleEmployee
+sampleEmployee=spark.createDataFrame(sampleEmployee_pandas) 
+
+
+# COMMAND ----------
+
+#exploding dataset 100x created employeeDF
+sampleEmployee=sampleEmployee.withColumn("Explodevalues",lit(100))
+employeeDF = sampleEmployee.withColumn(
+  "Explodevalues", expr("explode(array_repeat(Explodevalues,int(Explodevalues)))"))
+employeeDF=employeeDF.drop("Explodevalues")
+
+# COMMAND ----------
+
+#Create cityEmployeeDensity Dataframe based on no_of_employee in each city
+CityEmployeeDensity=employeeDF.groupBy("city").count()
+CityEmployeeDensity=CityEmployeeDensity.withColumnRenamed("count","No_Of_Employee")
+CityEmployeeDensity=CityEmployeeDensity.select("city","No_Of_Employee")
+#creating Sequence column to have ranks to each city based on the no_of_employees in each city and if employees are having same number than i have ranked on the basis of city name
+windowSpec  = Window.orderBy(desc("No_Of_Employee"),asc("city"))
+CityEmployeeDensity=CityEmployeeDensity.withColumn("Sequence",dense_rank().over(windowSpec))
+CityEmployeeDensity=CityEmployeeDensity.select("city","No_Of_Employee","Sequence")
+display(CityEmployeeDensity.sort(asc("Sequence")))
+
+# COMMAND ----------
+
+#create VaccinationDrivePlan with all the columns from employee and sequence
+VaccinationDrivePlan=employeeDF.join(CityEmployeeDensity,employeeDF.city==CityEmployeeDensity.city,"inner").select(employeeDF["*"],CityEmployeeDensity["Sequence"])
+
+# COMMAND ----------
+
+#print Dataframe
+print(VaccinationDrivePlan)
+
+# COMMAND ----------
+
+#display Dataframe
+display(VaccinationDrivePlan)
+
+# COMMAND ----------
+
+#calculating no_of_days required to complete vaccination in each city sequentially
+final_citywise=CityEmployeeDensity.withColumn("No_Of_Days",col("No_Of_Employee")/lit(100))
+#calculating no_of_days required to complete vaccination in each city from the starting of vaccination
+final_citywise_2=final_citywise.withColumnRenamed("No_Of_Days","No_Of_Days_2")
+final_citywise_2=final_citywise_2.withColumnRenamed("Sequence","Sequence_2")
+final=final_citywise.join(final_citywise_2,final_citywise.Sequence>=final_citywise_2.Sequence_2,"inner").select(final_citywise["*"],final_citywise_2["No_Of_Days_2"])
+final=final.groupBy("city","No_Of_Employee","Sequence","No_Of_Days").agg(sum("No_Of_Days_2").alias("No_Of_Days_CompanyWide"))
+#final output contains each city , no_of_days for each city , no_of_days for each city company wide
+display(final.select("city","No_Of_Days","No_Of_Days_CompanyWide"))
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+
